@@ -1,0 +1,105 @@
+:root{
+    --fuentePrimaria: "Ruda", sans-serif;
+    --fuenteSecundaria: "Catamaran", sans-serif;
+    --fuenteTerciaria: "Open Sans", sans-serif;
+    --colorTexto1: #B88940;
+    --colorFranjasAmarillas: #FFBD59;
+}
+
+/* Fuentes */
+
+.ruda {
+    font-family: var(--fuentePrimaria);
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.catamaran {
+    font-family: var(--fuenteSecundaria);
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+/* Utilidades */
+
+.uppercase {
+    text-transform: uppercase;
+}
+.font-size-40 {
+    font-size: 40px;
+}
+.letter-spacing-7 {
+    letter-spacing: 7px;
+}
+
+/* -------------------- */
+
+p, h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.linea {
+    background-color: black;
+    border-radius: 20px;
+    height: 10px;
+    width: 124px;
+    margin: 122px auto 56px auto;
+}
+
+h1 {
+    color: var(--colorTexto1);
+    font-size: 180px;
+    letter-spacing: 25px;
+}
+
+h2 {
+    font-size: 80px;
+    margin-bottom: 38px;
+}
+
+.contenedor-franjas {
+    width: 96%;
+    margin: 245px auto 330px auto;
+    position: relative;
+}
+
+.franjas-amarillas {
+    height: 48px;
+    background-color: var(--colorFranjasAmarillas);
+    margin-top: 48px;
+}
+
+.contenedor-productos {
+    position: absolute;
+    top: -30px;
+    left: 185px;
+    display: flex;
+    width: 70%;
+    column-gap: 17px;
+}
+
+.producto {
+    flex-basis: 33%;
+}
+
+.producto img {
+    width: 100%;
+}
+
+.producto p {
+    margin: 15px 0;
+}
+
+.texto-fin {
+    margin-bottom: 110px;
+}
+
+.your-fashion {
+    font-family: var(--fuenteTerciaria);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: var(--colorTexto1);
+    font-size: 60px;
+}
